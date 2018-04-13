@@ -1,0 +1,19 @@
+@import 'settings';
+@import 'foundation-emails';
+
+@import 'template/template';
+
+.store-info{
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+.header .container{width: 75%; min-width: 580px !important}
+.header-image{max-width: 250px !important}
+.auto-size{width: auto !important}
+.subheader{width: 100%; background-color: #777;}
+.subheader .container{background-color: #777; color: #FFF !important; padding-top: 5px; padding-bottom: 5px;}
+.subheader .container p{background-color: #777; color: #FFF !important;}
+.subheader .container a{color: #FFF !important; text-decoration: underline;}
+table.receipt{border: solid 1px #000;}
+table.receipt *{font-family: monospace;}

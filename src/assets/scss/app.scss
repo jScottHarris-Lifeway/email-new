@@ -7,8 +7,16 @@
   font-size: 14px;
   font-weight: 400;
   text-transform: capitalize;
+  color: #000 !important;
+}
+.receipt-info{
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: capitalize;
+  color: #000 !important;
 }
 .header .container{width: 75%; min-width: 580px !important}
+.header .callout{color: #000 !important;}
 .header-image{max-width: 250px !important}
 .auto-size{width: auto !important}
 .subheader{width: 100%; background-color: #777;}
@@ -17,3 +25,5 @@
 .subheader .container a{color: #FFF !important; text-decoration: underline;}
 table.receipt{border: solid 1px #000;}
 table.receipt *{font-family: monospace;}
+.return p{font-size: 80%; color: #CCC}
+img.barcode{max-width: 60%;}

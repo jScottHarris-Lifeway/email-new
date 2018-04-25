@@ -112,9 +112,6 @@ th.large-3 {
   padding-left: 8px;
   padding-right: 8px; }
 
-th.large-3.first {
-  padding-left: 16px; }
-
 th.large-3.last {
   padding-right: 16px; }
 
@@ -173,6 +170,9 @@ th.large-8 {
 th.large-8.first {
   padding-left: 16px; }
 
+th.large-8 center {
+  min-width: 338.66667px; }
+
 .body .columns th.large-8 {
   width: 66.66667%; }
 
@@ -210,7 +210,6 @@ th.expander {
   width: 0;
   padding: 0 !important; }
 
-table.text-center,
 h6.text-center,
 p.text-center {
   text-align: center; }
@@ -459,9 +458,6 @@ table.button.facebook table td {
 table.button.twitter table td {
   background: #1daced !important;
   border-color: #1daced; }
-
-.wrapper.secondary {
-  background: #f3f3f3; }
 
 .store-info {
   font-size: 14px;
